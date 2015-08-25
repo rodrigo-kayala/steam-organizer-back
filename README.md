@@ -1,5 +1,5 @@
 # steam-organizer - backend
-Steam organizer is a simple web tool to organize, sort and filter your **Steam** game library.
+Steam Organizer is a simple web application to organize, sort and filter your **Steam** game library.
 
 It has been developed as a demonstration purpose of my skills in backend development.
 
