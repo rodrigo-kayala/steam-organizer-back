@@ -1,4 +1,4 @@
-# steam-organizer - backend
+# steam-organizer - backend [![Build Status](https://travis-ci.org/rodrigo-kayala/steam-organizer-back.svg)](https://travis-ci.org/rodrigo-kayala/steam-organizer-back)
 Steam Organizer is a simple web application to organize, sort and filter your **Steam** game library.
 
 It has been developed as a demonstration purpose of my skills in backend development.
