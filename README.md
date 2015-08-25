@@ -22,9 +22,14 @@ For backend development the following tools, languagues and technologies has bee
 
 1. Install VirtualBox to be used as a provider: https://www.virtualbox.org/
 1. Install Vagrant: https://www.vagrantup.com/
+1. Copy vagrant/vagrant_envs_template.sh to vagrant/vagrant_envs.sh (this file
+  was intentionaly added to *.gitignore* file)
+(e.g. `cp vagrant/vagrant_envs_template.sh  vagrant/vagrant_envs.sh`)
+1. Edit your vagrant_envs.sh file and setup the environment variables
+  1. You will gonna need a Steam Account to get a Steam Api Key
 1. In the project folder, execute `vagrant up`
 1. After VM setup, run `vagrant ssh` to connect to virtual machine
 1. Go to vagrant shared folder: `cd /vagrant`
 
-+ To start Gunicorn Server, run the following command: `./start-gunicorn.sh`
-+ To start the Celery batch job, execute: `./start-celery.sh`
++ To start gunicorn server, run the following command: `./start-gunicorn.sh`
++ To start the Celery worker, execute: `./start-celery.sh`
