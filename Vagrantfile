@@ -76,6 +76,10 @@ Vagrant.configure(2) do |config|
     privileged:false
 
   config.vm.provision "shell",
+    path: "vagrant/vagrant_envs.sh",
+    privileged:false
+
+  config.vm.provision "shell",
     path: "vagrant/vagrant_startup.sh",
     privileged:false,
     run:"always"

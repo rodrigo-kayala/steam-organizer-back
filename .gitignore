@@ -64,3 +64,4 @@ target/
 ### Vagrant ###
 .vagrant/
 
+vagrant/vagrant_envs.sh

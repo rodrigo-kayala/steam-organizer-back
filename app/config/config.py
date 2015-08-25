@@ -5,9 +5,9 @@ class Config(object):
     DEBUG = False
     TESTING = False
     CSRF_ENABLED = True
-    STEAM_API_KEY = '' # steam api key
-    SECRET_KEY = '' # flask secret key
-    SALT = '' # token salt
+    STEAM_API_KEY = os.environ.get('STEAM_API_KEY')
+    SECRET_KEY = os.environ.get('FLASK_SECRET_KEY')
+    SALT = os.environ.get('TOKEN_SALT')
 
 
 class ProductionConfig(Config):
